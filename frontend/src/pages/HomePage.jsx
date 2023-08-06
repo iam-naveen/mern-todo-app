@@ -143,8 +143,8 @@ export default function TodoPage() {
               todos.map((todo) => (
                 <li
                   key={todo._id}
-                  className={`flex flex-col md:flex-row space-y-2 items-center justify-between bg-white p-4 shadow rounded-lg ${
-                    todo.completed ? " bg-slate-400/50" : "bg-slate-300"
+                  className={`flex flex-col md:flex-row space-y-2 items-center justify-between p-4 shadow rounded-lg ${
+                    todo.completed ? " bg-slate-400/50" : " bg-white"
                   }`}
                 >
                   <span
