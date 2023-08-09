@@ -17,7 +17,7 @@ app.use("/api", todoRoutes);
 
 const PORT = process.env.PORT || 8000;
 const DB = process.env.MONGO_DB_URL!;
-console.log(DB);
+// console.log(DB);
 
 mongoose
   .connect(DB)
